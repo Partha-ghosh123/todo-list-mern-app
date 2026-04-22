@@ -1,0 +1,120 @@
+/* .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 20px;
+    background-color: #333;
+    color: white;
+}
+.logo{
+    font-size: 20px;
+    font-weight: bold;  
+}
+.nav-links{
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+}
+.nav-links li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.nav-links li a:hover{
+    color: bisque;
+}    */
+
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:10px;
+  margin: 0;
+  /* Glassmorphism */
+  background: rgba(0, 0, 6, 0.85);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 25px rgba(67, 73, 91, 0.36);
+  color: #fff;
+}
+
+/* Logo (icon + text) */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* Add icon before logo text */
+.logo::before {
+  content: "📝";
+  font-size: 24px;
+}
+
+/* Nav links */
+.nav-links {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+/* Links */
+.nav-links li a {
+  position: relative;
+  color: #e0e7ff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 6px 10px;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.nav-links li a:hover {
+  color: #ffffff;
+}
+
+/* Underline animation */
+.nav-links li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+  background: linear-gradient(135deg, #c7d2fe, #ffffff);
+  transition: width 0.3s ease;
+}
+
+.nav-links li a:hover::after {
+  width: 100%;
+}
+
+/* Active link (optional class) */
+.nav-links li a.active {
+  color: #fff;
+  font-weight: 600;
+}
+
+.nav-links li a.active::after {
+  width: 100%;
+}
+
+/* Responsive */
+@media (max-width: 650px) {
+  .navbar {
+    flex-direction: column;
+    gap: 12px;
+    padding: 15px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+}

@@ -1,0 +1,126 @@
+/* .container{
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.2);
+}
+
+label{
+    display: block;
+    margin: 8px;
+    font-weight: 600;
+    color:#555
+}
+
+h1{
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer; 
+} */
+
+
+/* chatgpt generated css for add task page */
+ body {
+  background: linear-gradient(135deg, #4f65be, #d5b6f4);
+  min-height: 100vh;
+} 
+/* Container (same card style as list page) */
+.container {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 40px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.801);
+}
+h2{
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Labels */
+ label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #444;
+} 
+/* Inputs & textarea */
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
+  border: 1px solid #9daee3;
+  border-radius: 8px;
+  font-size: 14px;
+  background: #e5e6ea;
+  transition: all 0.25s ease;
+} 
+
+/* Focus effect (matching list hover color) */
+ input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #0e0a51;
+  background: #f8f2f2;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2); 
+} 
+
+/* Button (same gradient as list headers) */
+button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+button:hover {
+  background: linear-gradient(135deg, #4338ca, #5b21b6);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(79, 70, 229, 0.3);
+}
+
+/* Click effect */
+button:active {
+  transform: scale(0.97);
+}
+
+/* Responsive */
+ @media (max-width: 600px) {
+  .container {
+    width: 90%;
+    padding: 20px;
+  } 
+} 
+
