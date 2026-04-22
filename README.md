@@ -60,9 +60,9 @@ cd todo-list-mern-app
 - Start the backend server  
 
 
-cd backend
-npm install
-npm start
+-cd backend
+-npm install
+-npm start
 
 Server will run on: http://localhost:3000
 
@@ -72,9 +72,9 @@ Server will run on: http://localhost:3000
 - Install all dependencies using npm  
 - Run the frontend application  
 
-cd frontend
-npm install
-npm run dev
+-cd frontend
+-npm install
+-npm run dev
 
 Frontend will run on: http://localhost:5173
 
