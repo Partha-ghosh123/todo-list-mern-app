@@ -50,7 +50,6 @@ TO-DO LIST
 
 ### 1️ Clone the Repository
 
-```bash
 git clone https://github.com/Partha-ghosh123/todo-list-mern-app.git
 cd todo-list-mern-app
 
@@ -60,22 +59,19 @@ cd todo-list-mern-app
 - Install all dependencies using npm  
 - Start the backend server  
 
-```bash
+
 cd backend
 npm install
 npm start
 
 Server will run on: http://localhost:3000
----
 
-```markdown
 ## ⚙️ Frontend Setup
 
 - Navigate to the frontend folder  
 - Install all dependencies using npm  
 - Run the frontend application  
 
-```bash
 cd frontend
 npm install
 npm run dev
