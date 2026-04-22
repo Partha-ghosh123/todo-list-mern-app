@@ -48,37 +48,60 @@ TO-DO LIST
 
 ## ⚙️ Installation & Setup
 
-### 1️⃣ Clone the Repository
+### 1️ Clone the Repository
 
 ```bash
 git clone https://github.com/Partha-ghosh123/todo-list-mern-app.git
 cd todo-list-mern-app
 
-2️⃣ Backend Setup
+##  Backend Setup
+
+- Navigate to the backend folder  
+- Install all dependencies using npm  
+- Start the backend server  
+
+```bash
 cd backend
 npm install
 npm start
 
-3️⃣ Frontend Setup
+Server will run on: http://localhost:3000
+---
+
+```markdown
+## ⚙️ Frontend Setup
+
+- Navigate to the frontend folder  
+- Install all dependencies using npm  
+- Run the frontend application  
+
+```bash
 cd frontend
 npm install
 npm run dev
 
-**📌 Usage:**
-Register a new account
-Login using your credentials
-Add tasks
-Update or delete tasks
-Select multiple tasks using checkbox and delete them
+Frontend will run on: http://localhost:5173
 
-📈 Future Improvements:
+## 📌 Usage
 
-📱 Responsive Design
-🌙 Dark Mode
-🔔 Notifications
-📊 Dashboard / Analytics
+- Register a new account  
+- Login with your credentials  
+- Add new tasks  
+- Update existing tasks  
+- Delete individual tasks  
+- Select multiple tasks using checkbox and delete them together  
 
-**🙋‍♂️ Author**
-Partha Ghosh
+## 📈 Future Improvements
 
-💼 GitHub: https://github.com/Partha-ghosh123
+- 📱 Improve responsive design for mobile devices  
+- 🌙 Add dark mode support  
+- 🔔 Implement notifications/reminders for tasks  
+- 📊 Add dashboard with task analytics  
+- 🔍 Add search and filter functionality  
+
+## 🙋‍♂️ Author
+
+**Partha Ghosh**
+
+- 💼 GitHub: https://github.com/Partha-ghosh123
+- 📧 Email: parthaghoshgoas@gmail.com  
